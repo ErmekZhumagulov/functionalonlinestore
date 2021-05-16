@@ -19,7 +19,7 @@
 	<div class="container">
 		<div class="header">
 			<div class="icon">
-				<img src="img/icon.png" alt="icon" height="60px">
+				<img src="images/icon.png" alt="icon" height="60px">
 			</div>
 			<div class="nav">
 				
@@ -66,7 +66,7 @@
 
 			</div>
 			<div class="korzina">
-				<a href="shopping-cart/index.html" class="korzina-font">Корзина</a>
+				<a href="cart.html" class="korzina-font">Корзина</a>
 			</div>
 			<div class="login-section">
 				<?php  if (isset($_SESSION['username'])) : ?>
@@ -77,9 +77,16 @@
 		</div>
 		<div class="content">
 			<div class="products-section">
-
+				<a href="cart.html">Cart</a>
+				<div class="mini-cart"></div>
+				<a href="later.html">Желание</a>
+				<div class="goods-out"></div>
 			</div>
 		</div>
 	</div>
+	<footer></footer>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
